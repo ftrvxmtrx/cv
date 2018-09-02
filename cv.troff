@@ -1,0 +1,251 @@
+.de RO			\" ROLE
+.B
+..
+.de TA			\" TASK
+.IP \(bu 1m
+..
+.de YE			\" YEAR
+.IP \\$1 5m
+..
+.DA 2018/07/04
+.AU
+.LG
+.LG
+Sigrid Haflínudóttir
+.NL
+.R
+<ftrvxmtrx@gmail.com>
+.IP "" 5m
+.LG
+.LG
+.B Education
+.NL
+.IP 2008
+.B M.S.,
+.I
+Belarusian State University of Informatics and Radioelectronics,
+.R
+Minsk,
+.I
+Computer Science
+
+.LG
+.LG
+.B
+Most used tools
+.NL
+.IP
+C, Go, Java, POSIX shell, awk, Erlang, Haskell
+.IP
+Plan 9, GNU/Linux
+.IP
+maven, CMake, mk, GNU Make, rebar, cabal
+.IP
+troff, LaTeX, markdown
+
+.LG
+.LG
+.B Languages
+.NL
+.IP English
+.B Advanced
+.IP Swedish
+.B Pre-intermediate
+.IP Russian
+.B Native
+
+.LG
+.LG
+.B Experience
+.NL
+.YE 2013\-now
+.RO
+Software Engineer,
+.R
+Spotify AB, Stockholm.
+.RS
+.TA
+Spotify Connect: Java;
+.TA
+Embedded client library (running on TVs, PS4 and many embedded platforms): C;
+.TA
+Backend service for the embedded client; moving logic to the backend: Java;
+.TA
+Protobuf library for embedded platforms, with code autogeneration: C, awk, shell;
+.TA
+Tools for developers and QAs: Go, Python, JS;
+.TA
+Tooling for automated certification of Connect-enabled hardware: C, Java, gcloud;
+.TA
+Support for hardware partners.
+.RE
+
+.YE 2013
+.RO
+Embedded Software Engineer,
+.R
+Self-employed, Stockholm, POS terminal firmware.
+.RS
+.TA
+CLI: Go;
+.TA
+Server: Erlang;
+.TA
+POS firmware: C, Haskell (JHC), lua, protobuf, shell.
+.RE
+
+.YE 2011\-2013
+.RO
+Software Engineer,
+.R
+Klarna AB, Stockholm, Financial system.
+.RS
+.TA
+Experimental no-SQL KV storage design and implementation: Erlang/OTP, PropEr, PostgreSQL, RabbitMQ;
+.TA
+Business intelligence export engine: Erlang/OTP;
+.TA
+Code generator for business intelligence export engine: Erlang/OTP;
+.TA
+Real-time statistics collecting: PostgreSQL, Erlang/OTP;
+.TA
+Chef recipes;
+.TA
+Fast build system for Erlang software: Go, Erlang/OTP.
+.RE
+
+.YE 2011
+.RO
+Software Engineer,
+.R
+PowerMeMobile, Minsk, Telecom billing platform.
+.RS
+.TA
+Erlang/OTP;
+.TA
+Mnesia, rebar, bitcask, log4erl, etc.
+.TA
+Nodes automatic linking using Bonjour/Zeroconf.
+.RE
+
+.YE 2010
+.RO
+Software Engineer,
+.R
+Synesis, Minsk, HAL for NEC devboard.
+.RS
+.TA
+Linux kernel-level RTP/RTCP support implementation;
+.TA
+Performance optimization;
+.TA
+Tests in Python;
+.TA
+CMake-based build system.
+.RE
+
+.YE 2010
+.RO
+Software Engineer,
+.R
+Synesis, Minsk, DVB-T software for NEC devboard.
+.RS
+.TA
+Porting U-Boot to the devboard, including a lot of reverse-engineering, assembler-level programming;
+.TA
+Porting Linux kernel to the devboard;
+.TA
+Porting DVB-T software and platform-specific bugfixing;
+.TA
+Complete CMake-based build system;
+.TA
+Firmware minimization for 8Mb size flash device.
+.RE
+
+.YE 2010
+.RO
+Software Engineer,
+.R
+Synesis, Minsk, iPhone VoIP app.
+.RS
+.TA
+Bugfixing;
+.TA
+Helper tools for developers.
+.RE
+
+.YE 2009\-2010
+.RO
+Software Engineer,
+.R
+Synesis, Minsk, iPhone game development.
+.RS
+.TA
+Porting existing games to the iPhone platform;
+.TA
+Cross-platform game engine using OpenGL(ES), SDL, OpenAL.
+.RE
+
+.YE 2009
+.RO
+Software Engineer,
+.R
+Synesis, Minsk, OpenGLES UI tech demo for i.MX31 PDK.
+.RS
+.TA
+The tech demo.
+.RE
+
+.YE 2008
+.RO
+Software Engineer,
+.R
+Synesis, Porting previous project to Fujitsu devboard.
+.RS
+.TA
+Cross-compiler toolchain;
+.TA
+Providing a way to run and test the software;
+.TA
+Adding Fujitsu board support to middleware.
+.RE
+
+.YE 2008
+.RO
+Software Engineer,
+.R
+Synesis, DVB-T set-top box cross-platform software.
+.RS
+.TA
+Cross-platform middleware API design;
+.TA
+TI-DM6446 specific middleware implementation;
+.TA
+Build system.
+.RE
+
+.YE 2007\-2008
+.RO
+Software Engineer,
+.R
+Synesis, Minsk, DVB-S Linux set-top box (ST7109) software.
+.RS
+.TA
+Automatic tests in Python;
+.TA
+Extending automatic testing framework;
+.TA
+UI screens;
+.TA
+Automatic software update functionality and tools.
+.RE
+
+.IP "" 5m
+.LG
+.LG
+.B Links
+.NL
+.IP github
+http://github.com/ftrvxmtrx
+.IP bitbucket
+http://bitbucket.org/ftrvxmtrx
