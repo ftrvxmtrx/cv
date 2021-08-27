@@ -7,11 +7,11 @@
 .de YE			\" YEAR
 .IP \\$1 5m
 ..
-.DA 2018/07/04
+.DA 2021/05/17
 .AU
 .LG
 .LG
-Sigrid Haflínudóttir
+Sigrid Solveig Haflínudóttir
 .NL
 .R
 <ftrvxmtrx@gmail.com>
@@ -21,7 +21,7 @@ Sigrid Haflínudóttir
 .B Education
 .NL
 .IP 2008
-.B M.S.,
+.B B.S.,
 .I
 Belarusian State University of Informatics and Radioelectronics,
 .R
@@ -35,13 +35,22 @@ Computer Science
 Most used tools
 .NL
 .IP
-C, Go, Java, POSIX shell, awk, Erlang, Haskell
+Go, C, Java, Erlang, POSIX shell, awk, Haskell, OCaml
 .IP
-Plan 9, GNU/Linux
+Plan 9, GNU/Linux, OpenBSD
 .IP
-maven, CMake, mk, GNU Make, rebar, cabal
+mk, GNU Make, CMake, rebar, cabal
 .IP
 troff, LaTeX, markdown
+
+.LG
+.LG
+.B Links
+.NL
+.IP code
+.CW https://git.sr.ht/~ft " (up to date)"
+.IP github
+.CW https://github.com/ftrvxmtrx " (defunct)"
 
 .LG
 .LG
@@ -58,7 +67,17 @@ troff, LaTeX, markdown
 .LG
 .B Experience
 .NL
-.YE 2013\-now
+.YE 2018\-2021
+.RO
+Software Engineer,
+.R
+G-Loot AB, Stockholm.
+.RS
+.TA
+Backend services in Go: docker, k8s, gcloud, PostgreSQL, MQTT.
+.RE
+
+.YE 2013\-2018
 .RO
 Software Engineer,
 .R
@@ -132,7 +151,7 @@ Nodes automatic linking using Bonjour/Zeroconf.
 .RO
 Software Engineer,
 .R
-Synesis, Minsk, HAL for NEC devboard.
+Synesis, Minsk, HAL for an embedded devboard.
 .RS
 .TA
 Linux kernel-level RTP/RTCP support implementation;
@@ -148,10 +167,10 @@ CMake-based build system.
 .RO
 Software Engineer,
 .R
-Synesis, Minsk, DVB-T software for NEC devboard.
+Synesis, Minsk, DVB-T software for an embedded devboard.
 .RS
 .TA
-Porting U-Boot to the devboard, including a lot of reverse-engineering, assembler-level programming;
+Porting a bootloader, reverse-engineering and assembler-level programming;
 .TA
 Porting Linux kernel to the devboard;
 .TA
@@ -200,7 +219,7 @@ The tech demo.
 .RO
 Software Engineer,
 .R
-Synesis, Porting previous project to Fujitsu devboard.
+Synesis, Porting previous project to an embedded devboard.
 .RS
 .TA
 Cross-compiler toolchain;
@@ -217,35 +236,15 @@ Software Engineer,
 Synesis, DVB-T set-top box cross-platform software.
 .RS
 .TA
-Cross-platform middleware API design;
-.TA
-TI-DM6446 specific middleware implementation;
-.TA
-Build system.
+API design, platform-specific middleware implementation, build system.
 .RE
 
 .YE 2007\-2008
 .RO
 Software Engineer,
 .R
-Synesis, Minsk, DVB-S Linux set-top box (ST7109) software.
+Synesis, Minsk, DVB-S Linux set-top box (sh4 cpu) software.
 .RS
 .TA
-Automatic tests in Python;
-.TA
-Extending automatic testing framework;
-.TA
-UI screens;
-.TA
-Automatic software update functionality and tools.
+UI logic, software update logic, tests and tools.
 .RE
-
-.IP "" 5m
-.LG
-.LG
-.B Links
-.NL
-.IP github
-http://github.com/ftrvxmtrx
-.IP bitbucket
-http://bitbucket.org/ftrvxmtrx
